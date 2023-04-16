@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+
+		<style>
+			.defColor {
+				background: rgba(33, 32, 37, 1);
+			}
+			.navyBgColor {
+				background: rgba(22, 24, 30, 1);
+			}
+			.text-white {
+				color: white;
+			}
+			.searchColor {
+				background: rgba(33, 36, 45, 1);
+			}
+			.searchForm::placeholder {
+				color: white;
+			}
+			.kingsmanBgImg {
+				background: url(../assets/kings-man.png) no-repeat;
+				background-size: cover;
+				min-height: 39rem;
+			}
+			.bgImgCarousel {
+				background: url(../assets/garisWaktu.png) no-repeat;
+				background-size: cover;
+				width: 19%;
+				min-height: 10rem;
+			}
+			.w-6 {
+				width: 6%;
+			}
+			.w-20 {
+				width: 20%;
+			}
+			.mConnect {
+				margin-left: -50%;
+			}
+			.mMojoxApp {
+				margin-left: -60%;
+			}
+		</style>
+
+		<title>MOJOX</title>
+	</head>
+	<body class="navyBgColor">
+		<header class="defColor">
+			<nav>
+				<ul
+					class="navbar navbar-expand-md justify-content-evenly text-white list-unstyled"
+				>
+					<li class="nav-item">
+						<h1>MOJOX</h1>
+					</li>
+					<li class="nav-item w-50">
+						<div>
+							<ul class="navbar justify-content-around list-unstyled">
+								<li>
+									<a class="text-light text-decoration-none" href="#">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="text-light text-decoration-none" href="#"
+										>Watchlist</a
+									>
+								</li>
+								<li>
+									<a class="text-light text-decoration-none" href="#">Movies</a>
+								</li>
+								<li>
+									<a class="text-light text-decoration-none" href="#"
+										>TV Shows</a
+									>
+								</li>
+								<li>
+									<a class="text-light text-decoration-none" href="#">Anime</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-item">
+						<form class="d-flex" role="search">
+							<input
+								class="form-control me-2 searchColor searchForm"
+								type="search"
+								placeholder="Search"
+								aria-label="Search"
+							/>
+						</form>
+					</li>
+					<li class="nav-item p-1">
+						<img
+							src="/TugasAkhirHCILec/assets/PPNavbar.png"
+							class="w-75"
+							alt="profile picture"
+						/>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="p-4">
+			<div class="kingsmanBgImg rounded-4 position-relative">
+				<h2 class="text-light d-inline-block m-4">The Kingsman</h2>
+				<ul
+					class="list-unstyled bottom-0 position-absolute flex-row d-flex justify-content-between w-100"
+				>
+					<li class="ms-3">
+						<img src="../assets/watchListBtn.png" alt="" />
+					</li>
+					<li>
+						<div class="">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								fill="black"
+								class="bi bi-circle-fill"
+								viewBox="0 0 16 16"
+							>
+								<circle cx="8" cy="8" r="8" />
+							</svg>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								fill="white"
+								class="bi bi-circle-fill"
+								viewBox="0 0 16 16"
+							>
+								<circle cx="8" cy="8" r="8" />
+							</svg>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								fill="white"
+								class="bi bi-circle-fill"
+								viewBox="0 0 16 16"
+							>
+								<circle cx="8" cy="8" r="8" />
+							</svg>
+						</div>
+					</li>
+					<li class="d-inline-block me-3">
+						<img src="../assets/watchNowBtn.png" alt="" />
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="mt-5 ms-4 me-4">
+			<div class="flex-row d-flex justify-content-between">
+				<h2 class="text-light">Keep On Watching</h2>
+				<span
+					><a class="text-light text-decoration-none" href="#">See All</a></span
+				>
+			</div>
+			<div class="mt-3">
+				<ul
+					class="flex-row d-flex list-unstyled justify-content-around carousel"
+				>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+				</ul>
+			</div>
+		</section>
+		<section class="mt-5 ms-4 me-4">
+			<div class="flex-row d-flex justify-content-between">
+				<h2 class="text-light">Popular</h2>
+				<span
+					><a class="text-light text-decoration-none" href="#">See All</a></span
+				>
+			</div>
+			<div class="mt-3">
+				<ul
+					class="flex-row d-flex list-unstyled justify-content-around carousel"
+				>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+				</ul>
+			</div>
+		</section>
+		<section class="mt-5 ms-4 me-4">
+			<div class="flex-row d-flex justify-content-between">
+				<h2 class="text-light">For You</h2>
+				<span
+					><a class="text-light text-decoration-none" href="#">See All</a></span
+				>
+			</div>
+			<div class="mt-3">
+				<ul
+					class="flex-row d-flex list-unstyled justify-content-around carousel"
+				>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+				</ul>
+			</div>
+		</section>
+		<section class="mt-5 ms-4 me-4">
+			<div class="flex-row d-flex justify-content-between">
+				<h2 class="text-light">TV Shows</h2>
+				<span
+					><a class="text-light text-decoration-none" href="#">See All</a></span
+				>
+			</div>
+			<div class="mt-3">
+				<ul
+					class="flex-row d-flex list-unstyled justify-content-around carousel"
+				>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+				</ul>
+			</div>
+		</section>
+		<section class="mt-5 ms-4 me-4">
+			<div class="flex-row d-flex justify-content-between">
+				<h2 class="text-light">For Otaku</h2>
+				<span
+					><a class="text-light text-decoration-none" href="#">See All</a></span
+				>
+			</div>
+			<div class="mt-3">
+				<ul
+					class="flex-row d-flex list-unstyled justify-content-around carousel"
+				>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+				</ul>
+			</div>
+		</section>
+		<section class="mt-5 ms-4 me-4">
+			<div class="flex-row d-flex justify-content-between">
+				<h2 class="text-light">Coming Soon</h2>
+				<span
+					><a class="text-light text-decoration-none" href="#">See All</a></span
+				>
+			</div>
+			<div class="mt-3">
+				<ul
+					class="flex-row d-flex list-unstyled justify-content-around carousel"
+				>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+				</ul>
+			</div>
+		</section>
+		<section class="mt-5 ms-4 me-4">
+			<div class="flex-row d-flex justify-content-between">
+				<h2 class="text-light">Make You Laugh</h2>
+				<span
+					><a class="text-light text-decoration-none" href="#">See All</a></span
+				>
+			</div>
+			<div class="mt-3">
+				<ul
+					class="flex-row d-flex list-unstyled justify-content-around carousel"
+				>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+				</ul>
+			</div>
+		</section>
+		<section class="mt-5 ms-4 me-4">
+			<div class="flex-row d-flex justify-content-between">
+				<h2 class="text-light">Scary</h2>
+				<span
+					><a class="text-light text-decoration-none" href="#">See All</a></span
+				>
+			</div>
+			<div class="mt-3">
+				<ul
+					class="flex-row d-flex list-unstyled justify-content-around carousel"
+				>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+				</ul>
+			</div>
+		</section>
+		<section class="mt-5 ms-4 me-4">
+			<div class="flex-row d-flex justify-content-between">
+				<h2 class="text-light">Documentary</h2>
+				<span
+					><a class="text-light text-decoration-none" href="#">See All</a></span
+				>
+			</div>
+			<div class="mt-3">
+				<ul
+					class="flex-row d-flex list-unstyled justify-content-around carousel"
+				>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+					<li class="bgImgCarousel rounded-4"></li>
+				</ul>
+			</div>
+		</section>
+		<footer class="defColor p-3 mt-5    ">
+			<ul class="list-unstyled d-flex flex-row justify-content-between">
+				<li class="w-25">
+					<ul class="list-unstyled d-flex flex-row justify-content-evenly">
+						<li>
+							<a class="text-light text-decoration-none" href="#"
+								>About MOJOX</a
+							>
+						</li>
+						<li>
+							<a class="text-light text-decoration-none" href="#"
+								>Term Of Use</a
+							>
+						</li>
+						<li>
+							<a class="text-light text-decoration-none" href="#"
+								>Privacy Policy</a
+							>
+						</li>
+						<li>
+							<a class="text-light text-decoration-none" href="#">Feedback</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h4 class="text-light mConnect">Connect with us</h4>
+				</li>
+				<li>
+					<h4 class="text-light mMojoxApp">MOJOX's App</h4>
+				</li>
+			</ul>
+			<ul class="list-unstyled mb-0 d-flex flex-row justify-content-between">
+				<li class="w-25">
+					<p class="text-light w-100 ms-3">
+						© 2023 Mojox and its related entities. All Rights Reserved. © 2023
+						Mojox's licensor entities. All Rights Reserved.
+					</p>
+				</li>
+				<li class="w-6">
+					<ul class="list-unstyled d-flex flex-row justify-content-between">
+						<li>
+							<a href="#"
+								><img src="../assets/fbLogo.png" alt="facebook logo"
+							/></a>
+						</li>
+						<li>
+							<a href="#"
+								><img src="../assets/twitterLogo.png" alt="twitter logo"
+							/></a>
+						</li>
+					</ul>
+				</li>
+				<li class="w-20">
+					<ul
+						class="list-unstyled d-flex flex-row justify-content-between me-3"
+					>
+						<li>
+							<a href="#"
+								><img src="../assets/getInGPlayImg.png" alt="googlePlay Image"
+							/></a>
+						</li>
+						<li>
+							<a href="#"
+								><img src="../assets/getInAppStoreImg.png" alt="App Store img"
+							/></a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>
