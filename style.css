@@ -1,0 +1,1924 @@
+.searchColor {
+    background: rgba(33, 36, 45, 1);
+}
+.bgImgCarousel {
+    background: url(assets/garisWaktu.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.garisWaktuPoster {
+    background: url(assets/garisWaktu.png) no-repeat;
+}
+.w-6 {
+    width: 6%;
+}
+
+.colorCyan {
+    color: rgba(0, 220, 220, 1);
+}
+.borderColor {
+    border-bottom: 2px solid rgba(0, 220, 220, 1);
+}
+.theMenuPoster {
+    background: url(assets/theMenuPoster.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.mantanTapiMenikah {
+    background: url(assets/mantanTapiMenikahPoster.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.kokduPoster {
+    background: url(assets/kokdu.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dunkirkPoster {
+    background: url(assets/dunkirk.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.devilInLawPoster {
+    background: url(assets/devinInLaw.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.hotelTransylvania {
+    background: url(assets/hotelTransylvanie.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theLostCity {
+    background: url(assets/theLostCity.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.frozen2 {
+    background: url(assets/frozen2.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.interstellar {
+    background: url(assets/interstellar.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.spidermanNWH {
+    background: url(assets/spidermanNWH.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.vicenzo {
+    background: url(assets/vicenzo.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.xMenAppo {
+    background: url(assets/xmenApocalypse.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.downtownAbbey {
+    background: url(assets/downtownAbbey.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.avatar {
+    background: url(assets/avatar1.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dexter {
+    background: url(assets/dexter.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.wednesday {
+    background: url(assets/wednesday.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.billions {
+    background: url(assets/billions.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.strangeThings {
+    background: url(assets/strangeThings.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.mrSunshine {
+    background: url(assets/mrSunshine.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.AOT {
+    background: url(assets/AOT.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.bokuNoHero {
+    background: url(assets/bokuNoHero.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.OPM {
+    background: url(assets/OPM.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.fightForMyWay {
+    background: url(assets/fightForMyWay.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.laraAti {
+    background: url(assets/laraAti.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.yourName {
+    background: url(assets/yourName.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.SAO {
+    background: url(assets/SAO.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.persona5 {
+    background: url(assets/persona5.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.spiritedAway {
+    background: url(assets/spiritedAway.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.shazam {
+    background: url(assets/shazam.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.aManCallOtto {
+    background: url(assets/aManCallOtto.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.antMan {
+    background: url(assets/antMan.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.barbie {
+    background: url(assets/barbie.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.imperfect {
+    background: url(assets/imperfect.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.yowisBen {
+    background: url(assets/yowisBen.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.WWZ {
+    background: url(assets/WWZ.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.scream {
+    background: url(assets/scream.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theCall {
+    background: url(assets/theCall.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dontBreath {
+    background: url(assets/dontBreath.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.parasyte {
+    background: url(assets/parasyte.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theSocialDilemma {
+    background: url(assets/theSocialDilemma.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.everest {
+    background: url(assets/everest.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.katyPerry {
+    background: url(assets/KatyPerry.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.pele {
+    background: url(assets/pele.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.spencer {
+    background: url(assets/spencer.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.defColor {
+    background: rgba(33, 32, 37, 1);
+}
+.searchColor {
+    background: rgba(33, 36, 45, 1);
+}
+.yourLieInApril {
+    background: url(assets/677543.jpg) no-repeat;
+    background-size: cover;
+    min-height: 39rem;
+}
+.garisWaktuPoster{
+    background: url(assets/garisWaktu.png) no-repeat;
+}
+.w-20 {
+    width: 22%;
+}
+
+.mMojoxApp {
+    margin-left: -60%;
+}
+.theMenuPoster{
+    background: url(assets/theMenuPoster.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.mantanTapiMenikah{
+    background: url(assets/mantanTapiMenikahPoster.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.kokduPoster{
+    background: url(assets/kokdu.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dunkirkPoster{
+    background: url(assets/dunkirk.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.devilInLawPoster{
+    background: url(assets/devinInLaw.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.hotelTransylvania{
+    background: url(assets/hotelTransylvanie.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theLostCity{
+    background: url(assets/theLostCity.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.frozen2{
+    background: url(assets/frozen2.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.interstellar{
+    background: url(assets/interstellar.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.spidermanNWH{
+    background: url(assets/spidermanNWH.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.vicenzo{
+    background: url(assets/vicenzo.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.xMenAppo{
+    background: url(assets/xmenApocalypse.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.downtownAbbey{
+    background: url(assets/downtownAbbey.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.avatar{
+    background: url(assets/avatar1.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dexter{
+    background: url(assets/dexter.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.wednesday{
+    background: url(assets/wednesday.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.billions{
+    background: url(assets/billions.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.mrSunshine{
+    background: url(assets/mrSunshine.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.AOT{
+    background: url(assets/AOT.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.bokuNoHero{
+    background: url(assets/bokuNoHero.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.OPM{
+    background: url(assets/OPM.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.fightForMyWay{
+    background: url(assets/fightForMyWay.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.laraAti{
+    background: url(assets/laraAti.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.yourName{
+    background: url(assets/yourName.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+
+
+.spiritedAway{
+    background: url(assets/spiritedAway.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.shazam{
+    background: url(assets/shazam.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.aManCallOtto{
+    background: url(assets/aManCallOtto.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.antMan{
+    background: url(assets/antMan.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.barbie{
+    background: url(assets/barbie.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.imperfect{
+    background: url(assets/imperfect.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.yowisBen{
+    background: url(assets/yowisBen.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.WWZ{
+    background: url(assets/WWZ.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.scream{
+    background: url(assets/scream.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theCall{
+    background: url(assets/theCall.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dontBreath{
+    background: url(assets/dontBreath.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.parasyte{
+    background: url(assets/parasyte.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theSocialDilemma{
+    background: url(assets/theSocialDilemma.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.everest{
+    background: url(assets/everest.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.katyPerry{
+    background: url(assets/KatyPerry.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.pele{
+    background: url(assets/pele.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.spencer{
+    background: url(assets/spencer.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.clanna{
+    background: url(assets/clannad.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.chainsawMan{
+    background: url(assets/chainsawMan.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.nisekoi{
+    background: url(assets/nisekoi.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.darwinGame{
+    background: url(assets/darwinGame.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.komi-san{
+    background: url(assets/komi-san.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.danmachi{
+    background: url(assets/danmachi.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dagashi{
+    background: url(assets/dagashi.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.baka-to-test{
+    background: url(assets/bakaToTes.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.darling{
+    background: url(assets/darlingFranxx.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.blackClover{
+    background: url(assets/blackClover.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dateALive{
+    background: url(assets/dateALive.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.demonSlayer{
+    background: url(assets/demonSlayer.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.gate{
+    background: url(assets/gate.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.danshi{
+    background: url(assets/danshi.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.gekkan{
+    background: url(assets/gekkan.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.acchi{
+    background: url(assets/acchi.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.goblinSlayer{
+    background: url(assets/goblinSlayer.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.guiltyCrown{
+    background: url(assets/guiltyCrown.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.eightySix{
+    background: url(assets/86.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.bungou{
+    background: url(assets/bungou.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.hataraku{
+    background: url(assets/hataraku.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.horimiya{
+    background: url(assets/horimiya.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.koeNoKatachi{
+    background: url(assets/koeNoKatachi.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.kanojo{
+    background: url(assets/konojo.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.akame{
+    background: url(assets/akame.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.monogatari{
+    background: url(assets/monogatari.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.tokyoRevengers{
+    background: url(assets/tokyoRevengers.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.vinland{
+    background: url(assets/vinland.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.tonari{
+    background: url(assets/torani.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.tensai{
+    background: url(assets/tensai.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.violet{
+    background: url(assets/violet.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.konosuba{
+    background: url(assets/konosuba.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.textShadow{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -3px 4px #000000, 0px 4px 4px #000000;
+}
+.searchColor {
+    background: rgba(33, 36, 45, 1);
+}
+.searchForm::placeholder {
+    color: white;
+}
+
+.w-90{
+    width: 90%;
+}
+.text-white {
+    color: white;
+}
+.searchColor {
+    background: rgba(33, 36, 45, 1);
+}
+.kingsmanBgImg {
+    background: url(assets/kings-man.png) no-repeat;
+    background-size: cover;
+    min-height: 39rem;
+}
+.moneyHeist {
+    background: url(assets/moneyHeist.jpg) no-repeat;
+    background-size: cover;
+    min-height: 39rem;
+}
+.theMenuPoster{
+    background: url(assets/theMenuPoster.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.mantanTapiMenikah{
+    background: url(assets/mantanTapiMenikahPoster.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.kokduPoster{
+    background: url(assets/kokdu.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dunkirkPoster{
+    background: url(assets/dunkirk.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.devilInLawPoster{
+    background: url(assets/devinInLaw.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.hotelTransylvania{
+    background: url(assets/hotelTransylvanie.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theLostCity{
+    background: url(assets/theLostCity.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.frozen2{
+    background: url(assets/frozen2.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.interstellar{
+    background: url(assets/interstellar.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.spidermanNWH{
+    background: url(assets/spidermanNWH.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.vicenzo{
+    background: url(assets/vicenzo.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.xMenAppo{
+    background: url(assets/xmenApocalypse.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.downtownAbbey{
+    background: url(assets/downtownAbbey.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.avatar{
+    background: url(assets/avatar1.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dexter{
+    background: url(assets/dexter.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.wednesday{
+    background: url(assets/wednesday.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.billions{
+    background: url(assets/billions.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.mrSunshine{
+    background: url(assets/mrSunshine.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.AOT{
+    background: url(assets/AOT.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.bokuNoHero{
+    background: url(assets/bokuNoHero.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.OPM{
+    background: url(assets/OPM.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.fightForMyWay{
+    background: url(assets/fightForMyWay.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.laraAti{
+    background: url(assets/laraAti.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.yourName{
+    background: url(assets/yourName.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+
+
+.spiritedAway{
+    background: url(assets/spiritedAway.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.shazam{
+    background: url(assets/shazam.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.aManCallOtto{
+    background: url(assets/aManCallOtto.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.antMan{
+    background: url(assets/antMan.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.barbie{
+    background: url(assets/barbie.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.imperfect{
+    background: url(assets/imperfect.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.yowisBen{
+    background: url(assets/yowisBen.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.WWZ{
+    background: url(assets/WWZ.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.scream{
+    background: url(assets/scream.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theCall{
+    background: url(assets/theCall.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dontBreath{
+    background: url(assets/dontBreath.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.parasyte{
+    background: url(assets/parasyte.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theSocialDilemma{
+    background: url(assets/theSocialDilemma.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.everest{
+    background: url(assets/everest.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.katyPerry{
+    background: url(assets/KatyPerry.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.pele{
+    background: url(assets/pele.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.spencer{
+    background: url(assets/spencer.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.zNation{
+    background: url(assets/zNation.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.queenGambit{
+    background: url(assets/theQueenGambit.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.squidGame{
+    background: url(assets/squidGame.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.umbrella{
+    background: url(assets/theUmbrellaAcademy.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.manifest{
+    background: url(assets/manifest.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.k2{
+    background: url(assets/k2.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.lucifer{
+    background: url(assets/lucifer.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.peakyBlinders{
+    background: url(assets/peakyBlinders.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.AOUAD{
+    background: url(assets/AOUAD.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.lupin{
+    background: url(assets/lupin.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.deathNote{
+    background: url(assets/deathNote.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.descendantsOfTheSun{
+    background: url(assets/descendantsOfTheSun.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.yourAreMyHero{
+    background: url(assets/youAreMyHero.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.vagabond{
+    background: url(assets/vagabond.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.shadowAndBone{
+    background: url(assets/shadow&Bone.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.loveSoBeautiful{
+    background: url(assets/aLoveSoBeautiful.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.trueBeauty{
+    background: url(assets/trueBeauty.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.emilyInParis{
+    background: url(assets/emilyInParis.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.firstLove{
+    background: url(assets/firstLove.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.loveO2O{
+    background: url(assets/loveO2O.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.arthdal{
+    background: url(assets/arthdal.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dark{
+    background: url(assets/dark.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.ohMyGhost{
+    background: url(assets/ohMyGhost.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.lostInSpace{
+    background: url(assets/lostInSpace.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.breakingBad{
+    background: url(assets/breakingBad.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.navyBgColor {
+    background: rgba(22, 24, 30, 1);
+}
+.searchColor {
+    background: rgba(33, 36, 45, 1);
+}
+.purpleHeart {
+    background: url(assets/1232482.jpg) no-repeat;
+    background-size: cover;
+    min-height: 39rem;
+}
+.colorCyan{
+    color: rgba(0, 220, 220, 1);
+}
+.theMenuPoster{
+    background: url(assets/theMenuPoster.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.mantanTapiMenikah{
+    background: url(assets/mantanTapiMenikahPoster.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.kokduPoster{
+    background: url(assets/kokdu.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dunkirkPoster{
+    background: url(assets/dunkirk.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.devilInLawPoster{
+    background: url(assets/devinInLaw.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.hotelTransylvania{
+    background: url(assets/hotelTransylvanie.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theLostCity{
+    background: url(assets/theLostCity.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.frozen2{
+    background: url(assets/frozen2.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.interstellar{
+    background: url(assets/interstellar.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.spidermanNWH{
+    background: url(assets/spidermanNWH.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.vicenzo{
+    background: url(assets/vicenzo.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.xMenAppo{
+    background: url(assets/xmenApocalypse.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.downtownAbbey{
+    background: url(assets/downtownAbbey.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.avatar{
+    background: url(assets/avatar1.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dexter{
+    background: url(assets/dexter.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.wednesday{
+    background: url(assets/wednesday.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.billions{
+    background: url(assets/billions.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.mrSunshine{
+    background: url(assets/mrSunshine.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.AOT{
+    background: url(assets/AOT.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.bokuNoHero{
+    background: url(assets/bokuNoHero.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.OPM{
+    background: url(assets/OPM.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.fightForMyWay{
+    background: url(assets/fightForMyWay.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.laraAti{
+    background: url(assets/laraAti.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.yourName{
+    background: url(assets/yourName.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+
+
+.spiritedAway{
+    background: url(assets/spiritedAway.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.shazam{
+    background: url(assets/shazam.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.aManCallOtto{
+    background: url(assets/aManCallOtto.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.antMan{
+    background: url(assets/antMan.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.barbie{
+    background: url(assets/barbie.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.imperfect{
+    background: url(assets/imperfect.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.yowisBen{
+    background: url(assets/yowisBen.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.WWZ{
+    background: url(assets/WWZ.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.scream{
+    background: url(assets/scream.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theCall{
+    background: url(assets/theCall.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dontBreath{
+    background: url(assets/dontBreath.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.parasyte{
+    background: url(assets/parasyte.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theSocialDilemma{
+    background: url(assets/theSocialDilemma.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.everest{
+    background: url(assets/everest.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.katyPerry{
+    background: url(assets/KatyPerry.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.pele{
+    background: url(assets/pele.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.spencer{
+    background: url(assets/spencer.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.ronin{
+    background: url(assets/47Ronin.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.divergent{
+    background: url(assets/divergent.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.joker{
+    background: url(assets/joker.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.jackReacher{
+    background: url(assets/jackReacher.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.savingPrivateRyan{
+    background: url(assets/savingPrivateRyan.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.mencuriRadenSaleh{
+    background: url(assets/mencuriRadenSaleh.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.skyHigh{
+    background: url(assets/skyHigh.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.bleedingSteel{
+    background: url(assets/bleedingSteel.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.trainToBusan{
+    background: url(assets/trainToBusan.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.bumblebee{
+    background: url(assets/bumblebee.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.lalaland{
+    background: url(assets/lalaland.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.beWithYou{
+    background: url(assets/beWithYou.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.redNotice{
+    background: url(assets/redNotice.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.wanted{
+    background: url(assets/wanted.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.battleship{
+    background: url(assets/battleShip.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.blackAdam{
+    background: url(assets/blackAdam.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dune{
+    background: url(assets/dune.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.expendables{
+    background: url(assets/expendables.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.lordOfTheRIngs{
+    background: url(assets/LOTR.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.unthinkable{
+    background: url(assets/theUnthinkable.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.darkKnight{
+    background: url(assets/theDarkKnight.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.goneGirl{
+    background: url(assets/goneGirl.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.greenLatern{
+    background: url(assets/greenLatern.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.jasonBourne{
+    background: url(assets/jasonBourner.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.snakeEyes{
+    background: url(assets/snakeEyes.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.fantasticBeast{
+    background: url(assets/fantasticBeast.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+
+
+.w-30{
+    width: 30%;
+}
+.borderColor{
+    border-bottom: 2px solid rgba(0, 220, 220, 1);
+}
+.searchColor {
+    background: rgba(33, 36, 45, 1);
+}
+.w-20 {
+    min-width: 20.5%;
+}
+.mConnect {
+    margin-left: -70%;
+}
+.w-30 {
+    width: 30%;
+}
+.none{
+    display: none;
+}
+.theMenuPoster{
+    background: url(assets/theMenuPoster.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.mantanTapiMenikah{
+    background: url(assets/mantanTapiMenikahPoster.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.kokduPoster{
+    background: url(assets/kokdu.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.dunkirkPoster{
+    background: url(assets/dunkirk.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.devilInLawPoster{
+    background: url(assets/devinInLaw.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.hotelTransylvania{
+    background: url(assets/hotelTransylvanie.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.theLostCity{
+    background: url(assets/theLostCity.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.frozen2{
+    background: url(assets/frozen2.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.interstellar{
+    background: url(assets/interstellar.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.spidermanNWH{
+    background: url(assets/spidermanNWH.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.vicenzo{
+    background: url(assets/vicenzo.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.xMenAppo{
+    background: url(assets/xmenApocalypse.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.downtownAbbey{
+    background: url(assets/downtownAbbey.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.avatar{
+    background: url(assets/avatar1.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.dexter{
+    background: url(assets/dexter.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.wednesday{
+    background: url(assets/wednesday.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.billions{
+    background: url(assets/billions.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.strangeThings{
+    background: url(assets/strangeThings.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.mrSunshine{
+    background: url(assets/mrSunshine.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.AOT{
+    background: url(assets/AOT.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.bokuNoHero{
+    background: url(assets/bokuNoHero.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.OPM{
+    background: url(assets/OPM.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.fightForMyWay{
+    background: url(assets/fightForMyWay.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.laraAti{
+    background: url(assets/laraAti.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.yourName{
+    background: url(assets/yourName.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.SAO{
+    background: url(assets/SAO.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.persona5{
+    background: url(assets/persona5.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.spiritedAway{
+    background: url(assets/spiritedAway.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.shazam{
+    background: url(assets/shazam.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.aManCallOtto{
+    background: url(assets/aManCallOtto.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.antMan{
+    background: url(assets/antMan.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.barbie{
+    background: url(assets/barbie.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.imperfect{
+    background: url(assets/imperfect.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.yowisBen{
+    background: url(assets/yowisBen.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.WWZ{
+    background: url(assets/WWZ.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.scream{
+    background: url(assets/scream.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.theCall{
+    background: url(assets/theCall.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.dontBreath{
+    background: url(assets/dontBreath.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.parasyte{
+    background: url(assets/parasyte.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.theSocialDilemma{
+    background: url(assets/theSocialDilemma.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.everest{
+    background: url(assets/everest.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.katyPerry{
+    background: url(assets/KatyPerry.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.pele{
+    background: url(assets/pele.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.spencer{
+    background: url(assets/spencer.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.naruto{
+    background: url(assets/naruto.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.aquaman{
+    background: url(assets/aquaman.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.enola{
+    background: url(assets/enolaHolmes.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.DAYS{
+    background: url(assets/DAYS.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.endgame{
+    background: url(assets/endgame.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.encanto{
+    background: url(assets/encanto.png) no-repeat;
+    background-size: cover;
+    width: 20.5%;
+    min-height: 10rem;
+}
+.textShadow{
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25), 5px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.movieBtn,
+.animeBtn,
+.tvShowBtn,
+.PP{
+    cursor: pointer;
+}
