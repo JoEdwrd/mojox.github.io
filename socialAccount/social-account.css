@@ -1,0 +1,693 @@
+html {  
+  line-height: 1.15;
+  font-family: Inter;
+  font-size: 16px;
+}
+body {  
+  margin: 0;
+  font-weight: 400;
+  font-style:normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  color: var(--dl-color-gray-black);
+  background-color: var(--dl-color-gray-white);
+}
+* {  
+  box-sizing: border-box;  
+  border-width: 0;  
+  border-style: solid;
+}
+p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  
+  margin: 0;  
+  padding: 0;
+}
+button {  
+  background-color: transparent;
+}
+button,input,optgroup,select,textarea {  
+  font-family: inherit;  
+  font-size: 100%;  
+  line-height: 1.15; 
+  margin: 0;
+}
+button,select {  
+  text-transform: none;
+}
+button,[type="button"],[type="reset"],[type="submit"] {  
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  
+  border-style: none;  
+  padding: 0;
+}
+button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  
+  outline: 1px dotted ButtonText;
+}
+a {  
+  color: inherit;  
+  text-decoration: inherit;
+}
+input {  
+  padding: 2px 4px;
+}
+img {  
+  display: block;
+}
+html { 
+  scroll-behavior: smooth;  
+}
+
+/**/
+
+.social-account-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.social-account-social-account {
+  width: 100%;
+  height: 783px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: var(--dl-color-darkversion_surface-background1);
+}
+.social-account-top-searchbar {
+  top: 45px;
+  left: 454px;
+  width: 538px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.social-account-frame1000003192 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 100px;
+}
+.social-account-text {
+  color: var(--dl-color-darkversion_type-textlight);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+.social-account-text01 {
+  color: rgba(0, 185, 174, 1);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-textfield3 {
+  width: 330px;
+  height: 46px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(31, 30, 31, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  background-color: var(--dl-color-darkversion_surface-background3);
+}
+.social-account-text03 {
+  top: 13px;
+  left: 15px;
+  color: var(--dl-color-darkversion_type-textwhite);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-iconsearch {
+  top: 14px;
+  left: 297px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.social-account-sidebar3 {
+  top: 0px;
+  left: 0px;
+  width: 240px;
+  height: 783px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: var(--dl-color-darkversion_surface-background2);
+}
+.social-account-sidebarbuttons {
+  top: 174px;
+  left: 20px;
+  width: 178px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 8px;
+  background-color: rgba(0, 185, 174, 1);
+}
+.social-account-iconcart {
+  top: 13px;
+  left: 15px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.social-account-logosinstagram {
+  top: 1px;
+  left: -1px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.social-account-text05 {
+  top: 12px;
+  left: 39px;
+  color: var(--dl-color-darkversion_type-textwhite);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-sidebarbuttons1 {
+  top: 224px;
+  left: 20px;
+  width: 178px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 8px;
+}
+.social-account-iconauthentication {
+  top: 14px;
+  left: 15px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.social-account-text07 {
+  top: 12px;
+  left: 39px;
+  color: var(--dl-color-darkversion_type-textwhite);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-sidebarbuttons2 {
+  top: 274px;
+  left: 23px;
+  width: 178px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 8px;
+}
+.social-account-sidebarbuttons1:hover {
+  background-color: rgba(0, 185, 174, 1);
+}
+.social-account-sidebarbuttons2:hover {
+  background-color: rgba(0, 185, 174, 1);
+}
+.social-account-sidebarbuttons3:hover {
+  background-color: rgba(0, 185, 174, 1);
+}
+
+.social-account-text09 {
+  top: 12px;
+  left: 39px;
+  color: var(--dl-color-darkversion_type-textwhite);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-icondelete {
+  top: 13px;
+  left: 15px;
+  width: 14px;
+  height: 16px;
+  position: absolute;
+}
+.social-account-text11 {
+  top: 46px;
+  left: 37px;
+  color: var(--dl-color-default-f9f9f9);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Condensed ExtraBold;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 800;
+  line-height: 100%;
+  font-stretch: condensed;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.social-account-sidebarbuttons3 {
+  top: 125px;
+  left: 20px;
+  width: 178px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 8px;
+}
+.social-account-icon-home {
+  top: 13px;
+  left: 15px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.social-account-text13 {
+  top: 12px;
+  left: 39px;
+  color: var(--dl-color-darkversion_type-textwhite);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-socialaccounts {
+  top: 125px;
+  left: 401px;
+  width: 799px;
+  height: 405px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15000000596046448) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 8px;
+  background-color: var(--dl-color-darkversion_surface-background3);
+}
+.social-account-top {
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 70px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: var(--dl-color-darkversion_surface-background1);
+}
+.social-account-text15 {
+  top: 23px;
+  left: 30px;
+  color: var(--dl-color-lightversion_surface-white);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-socialinfo {
+  top: 100px;
+  left: 30px;
+  width: 145px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.social-account-iconbutton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 15px;
+}
+.social-account-ellipse30 {
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+}
+.social-account-icontwitter {
+  top: 11px;
+  left: 11px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.social-account-frame1000003162 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-account-text17 {
+  color: var(--dl-color-lightversion_surface-white);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 2px;
+}
+.social-account-text19 {
+  color: var(--dl-color-darkversion_type-textlight);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-socialinfo1 {
+  top: 181px;
+  left: 30px;
+  width: 145px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.social-account-iconbutton1 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 15px;
+}
+.social-account-ellipse301 {
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+}
+.social-account-iconfacebook {
+  top: 11px;
+  left: 9px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.social-account-frame10000031621 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-account-text21 {
+  color: var(--dl-color-lightversion_surface-white);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 2px;
+}
+.social-account-text23 {
+  color: var(--dl-color-darkversion_type-textlight);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-socialinfo2 {
+  top: 260px;
+  left: 30px;
+  width: 161px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.social-account-iconbutton2 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin-right: 15px;
+}
+.social-account-frame10000031622 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-account-text25 {
+  color: var(--dl-color-lightversion_surface-white);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 2px;
+}
+.social-account-text27 {
+  color: var(--dl-color-darkversion_type-textlight);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-socialinfo3 {
+  top: 340px;
+  left: 30px;
+  width: 181px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.social-account-iconbutton3 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 15px;
+}
+.social-account-ellipse302 {
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+}
+.social-account-icongoogle {
+  top: 11px;
+  left: 11px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.social-account-frame10000031623 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-account-text29 {
+  color: var(--dl-color-lightversion_surface-white);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 2px;
+}
+.social-account-text31 {
+  color: var(--dl-color-darkversion_type-textlight);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-textbutton {
+  top: 106px;
+  left: 680px;
+  width: 89px;
+  display: flex;
+  padding: 5px 16px;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.social-account-text33 {
+  color: rgba(0, 185, 174, 1);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-textbutton1 {
+  top: 188px;
+  left: 680px;
+  width: 89px;
+  display: flex;
+  padding: 5px 16px;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.social-account-text35 {
+  color: rgba(0, 185, 174, 1);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-textbutton2 {
+  top: 267px;
+  left: 680px;
+  width: 107px;
+  display: flex;
+  padding: 5px 16px;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.social-account-text37 {
+  color: rgba(0, 185, 174, 1);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-textbutton3 {
+  top: 347px;
+  left: 680px;
+  width: 107px;
+  display: flex;
+  padding: 5px 16px;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.social-account-text39 {
+  color: rgba(0, 185, 174, 1);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.social-account-vector666 {
+  top: 160.5px;
+  left: 30px;
+  width: 742px;
+  height: 0px;
+  position: absolute;
+}
+.social-account-vector667 {
+  top: 240.5px;
+  left: 30px;
+  width: 742px;
+  height: 0px;
+  position: absolute;
+}
+.social-account-vector668 {
+  top: 320.5px;
+  left: 30px;
+  width: 742px;
+  height: 0px;
+  position: absolute;
+}

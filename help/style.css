@@ -1,0 +1,712 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-color-default-21242d: rgba(33, 36, 45, 1);
+  --dl-color-default-f9f9f9: rgba(249, 249, 249, 1);
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-color-default-f9f9f91: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f92: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f93: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f94: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f95: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f96: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f97: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f98: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f99: rgba(249, 249, 249, 1);
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-color-default-f9f9f910: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f911: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f912: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f913: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f914: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f915: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f916: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f917: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f918: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f919: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f920: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f921: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f922: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f923: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f924: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f925: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f926: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f927: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f928: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f929: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f930: rgba(249, 249, 249, 1);
+  --dl-color-default-f9f9f931: rgba(249, 249, 249, 1);
+  --dl-space-space-threeunits: 48px;
+  --dl-color-default-lowoptitles: rgba(249, 249, 249, 0.6700000166893005);
+  --dl-color-default-lowoptitles1: rgba(249, 249, 249, 0.6700000166893005);
+  --dl-color-default-lowoptitles2: rgba(249, 249, 249, 0.6700000166893005);
+  --dl-color-default-lowoptitles3: rgba(249, 249, 249, 0.6700000166893005);
+  --dl-color-default-lowoptitles4: rgba(249, 249, 249, 0.6700000166893005);
+  --dl-color-default-lowoptitles5: rgba(249, 249, 249, 0.6700000166893005);
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-darkversion_type-textlight: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textwhite: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textlight1: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight2: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight3: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight4: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight5: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight6: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight7: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight8: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight9: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textwhite1: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite2: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite3: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite4: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite5: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite6: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite7: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite8: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite9: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white1: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white2: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white3: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white4: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white5: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white6: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white7: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white8: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white9: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textlight10: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight11: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight12: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight13: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight14: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textlight15: rgba(181, 181, 181, 1);
+  --dl-color-darkversion_type-textwhite10: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite11: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite12: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite13: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite14: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_type-textwhite15: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white10: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white11: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white12: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white13: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white14: rgba(255, 255, 255, 1);
+  --dl-color-lightversion_surface-white15: rgba(255, 255, 255, 1);
+  --dl-color-darkversion_surface-background1: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background2: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background3: rgba(40, 39, 41, 1);
+  --dl-color-darkversion_surface-background11: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background12: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background13: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background14: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background15: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background16: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background17: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background18: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background19: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background21: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background22: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background23: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background24: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background25: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background26: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background27: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background28: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background29: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background31: rgba(40, 39, 41, 1);
+  --dl-color-darkversion_surface-background110: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background111: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background112: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background113: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background114: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background115: rgba(24, 22, 24, 1);
+  --dl-color-darkversion_surface-background210: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background211: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background212: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background213: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background214: rgba(31, 30, 31, 1);
+  --dl-color-darkversion_surface-background215: rgba(31, 30, 31, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.BodyMedium {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyLarge2 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyLarge4 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyLarge8 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleSmall {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleMedium8 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.MainFont {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleSmall7 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyMedium1 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadlinesMedium3 {
+  font-size: 25.6299991607666px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.TitleSmall1 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyLarge {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium7 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyLarge1 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadlinesMedium2 {
+  font-size: 25.6299991607666px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.HeadlinesMedium {
+  font-size: 25.6299991607666px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.BodyLarge9 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyMedium5 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleSmall5 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.MainFont2 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium1 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleMedium4 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyLarge5 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium6 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleMedium {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleSmall6 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyMedium2 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyMedium3 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadlinesMedium1 {
+  font-size: 25.6299991607666px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.TitleSmall3 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleSmall8 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleSmall2 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleMedium2 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyLarge7 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyLarge6 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium3 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.BodyLarge3 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium5 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.MainFont1 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadlinesMedium5 {
+  font-size: 25.6299991607666px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.TitleSmall4 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyMedium4 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleSmall9 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadlinesMedium4 {
+  font-size: 25.6299991607666px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.MainFont3 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyLarge10 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium9 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleSmall10 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyMedium6 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.MainFont4 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyLarge11 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium10 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleSmall11 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyMedium7 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BodyLarge12 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium11 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleSmall12 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadlinesMedium6 {
+  font-size: 25.6299991607666px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.BodyLarge13 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium12 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleSmall13 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyMedium8 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadlinesMedium7 {
+  font-size: 25.6299991607666px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.BodyLarge14 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium13 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyMedium9 {
+  font-size: 12.640000343322754px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleSmall14 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadlinesMedium8 {
+  font-size: 25.6299991607666px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.BodyLarge15 {
+  font-size: 14.220000267028809px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TitleMedium14 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TitleSmall15 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
