@@ -2029,3 +2029,8 @@
     background: url(assets/epDisplayIMg.png) no-repeat; 
     background-size: cover;
 }
+
+.displayMovie{
+    background: url(assets/movieDisplay.png) no-repeat; 
+    background-size: cover;
+}
