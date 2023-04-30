@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background: #212025;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 80px;
+	position: fixed;
+	z-index: 3;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-size: 20pt;
+}
+
+.content{
+    position: static;
+    background: black;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+	align-items: center;
+	justify-content: center; 
+    flex-direction: column;
+}
+
+.bigTemp{
+    margin-top: 80px;
+    top: 0;
+    width: 100%;
+    height: 87%;
+    /* background-color: aquamarine; */
+}
+
+.top{
+    width: 90%;
+}
+
+.leftRight{
+    display: flex;
+    flex-direction: row;
+}
+
+.paymentMethod{
+    /* background-color: rosybrown; */
+    width: 40%;
+    height: 90%;
+    display: flex;
+    margin-left: 7%;
+    flex-direction: column;
+    color: white;
+}
+.paymentMethod >h3{
+    font-size: 15pt;
+}
+
+.titleSub{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    width: 5%;
+    margin-top: 1%;
+}
+
+.image1{
+    margin-right: 50%;
+}
+.input{
+    margin-top: 1%;
+    width: 50%;
+    height: 10%;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+
+.img1{
+    display: flex;
+    flex-direction: row;
+}
+
+.img2{
+    display: flex;
+    flex-direction: row;
+}
+
+.line1{
+    display: flex;
+    flex-direction: row;
+    height: 8%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bill{
+    background: #303440;
+    box-shadow: 0px 0px 1px 4px rgba(0, 0, 0, 0.25);
+    width: 45%;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 14pt;
+    margin: 2%;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.text2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 14pt;
+    margin: 2%;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.titleBill{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #00B9AE;
+}
+
+.lineImg{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 4%;
+    margin-bottom: 2%;
+}
+
+.boxBill{
+    width: 80%;
+    height: 20%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px;
+    margin-top: 1%;
+}
+
+.boxBill>h2{
+    color: black;
+    opacity: 0.7;
+}
+
+.textBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    font-size: 14pt;
+    margin: 2%;
+    color: black;
+    opacity: 0.7;
+}
+
+.checkboxTemp{
+    margin-top: 3%;
+    width: 90%;
+    height: 20%;
+    color: white;
+}
+
+.checkbox{
+    width: 100%;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.checkbox > input {
+    margin-right: 10px;
+}
+
+.bill> button {
+    font-size: 12pt;
+    width: 30%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #00B9AE;
+}
+
+.bill> button a{
+    color: white;
+}

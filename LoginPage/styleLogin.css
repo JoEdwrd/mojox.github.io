@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.LogIn{
+    background-image: url("../assets/bgRegister.svg");
+    width: 100%;
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    color: white;
+    background: linear-gradient(0deg, #16181E, #16181E), #1D1933;
+    opacity: 0.85;
+    border-radius: 99px;
+    width: 800px;
+    height: 500px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.registerForm > h3 {
+    width: 100%;
+    text-align: left;
+    font-size: 14pt;
+    margin-top: 20px;
+    margin-bottom: 5px; 
+    margin-left: 5px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100%;
+    padding: 15px;
+    background: rgba(217, 217, 217, 0.3);
+    border-radius: 10px;
+}
+
+.checkbox{
+    width: 100%;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.checkbox > input {
+    margin-right: 10px;
+}
+
+.registerForm > button {
+    font-size: 18pt;
+    width: 30%;
+    margin: 10px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background: #00B9AE;
+    border-radius: 13px;
+}
+
+.registerForm > button a{
+    color: white;
+}
+
+.temp{
+    margin-top: 2%;
+}
+
+.temp a{
+    font-size: 12pt;
+    color: white;
+}
+
+.temp a:hover{
+    color: #00B9AE;
+}

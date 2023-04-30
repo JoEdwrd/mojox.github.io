@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.SignInSuccessPage{
+    background-image: url("../assets/bgRegister.svg");
+    width: 100%;
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    color: white;
+    background: linear-gradient(0deg, #16181E, #16181E), #1D1933;
+    opacity: 0.85;
+    border-radius: 99px;
+    width: 800px;
+    height: 500px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.registerForm > button {
+    font-size: 18pt;
+    width: 40%;
+    height: 20%;
+    margin: 10px;
+    padding: 15px 25px;
+    margin-top: 30px;
+    background: #00B9AE;
+    border-radius: 13px;
+}
+
+.registerForm > button a{
+    color: white;
+}

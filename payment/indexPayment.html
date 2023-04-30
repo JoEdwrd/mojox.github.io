@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylePayment.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/logoMojox.svg"/>
+            <p class="title">SUBSCRIPTION</p>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="bigTemp">
+            <div class="top">
+                <img src="../assets/backImg.svg" class="backImg">
+            </div>
+
+            <div class="leftRight">
+                <div class="paymentMethod">
+                    <h1 class="titleSub">Payment Method</h1>
+
+                    <h3>Credit Card</h3>
+                    <div class="image">
+                        <input type="radio" name="pay">
+                        <img src="../assets/visaImg.svg" class="image1">
+                        <input type="radio" name="pay">
+                        <img src="../assets/masterCardImg.svg" class="image2">
+                    </div>
+
+                    <input class="input" type="text" placeholder="Input Number of Card" id="inputCard">
+
+                    <h3>Wallet</h3>
+                    <div class="line1">
+                        <div class="img1">
+                            <!-- <img src="../assets/circle.svg" class="circle"> -->
+                            <input type="radio" name="pay">
+                            <img src="../assets/paypal.svg" class="image1">
+                        </div>
+                        <div class="img2">
+                            <!-- <img src="../assets/circle.svg" class="circle"> -->
+                             <input type="radio" name="pay">
+                            <img src="../assets/dana.svg" class="image1">
+                        </div>
+                    </div>
+                    <div class="line1">
+                        <div class="img1">
+                            <!-- <img src="../assets/circle.svg" class="circle"> -->
+                            <input type="radio" name="pay">
+                            <img src="../assets/gopay.svg" class="image1">
+                        </div>
+                        <div class="img2">
+                            <!-- <img src="../assets/circle.svg" class="circle"> -->
+                            <input type="radio" name="pay">
+                            <img src="../assets/ovo.svg" class="image1">
+                        </div>
+                    </div>
+                    <input class="input" type="text" placeholder="Input Phone Number" id="inputNumber">
+
+                    <h3>Virtual Account</h3>
+                    <div class="line1">
+                        <div class="img1">
+                            <!-- <img src="../assets/circle.svg" class="circle"> -->
+                            <input type="radio" name="pay">
+                            <img src="../assets/bca.svg" class="image1">
+                        </div>
+                        <p class="discount">(15% off)</p>
+                    </div>
+                    <div class="line1">
+                        <div class="img1">
+                            <!-- <img src="../assets/circle.svg" class="circle"> -->
+                            <input type="radio" name="pay">
+                            <img src="../assets/mandiri.svg" class="image1">
+                        </div>
+                        <div class="img2">
+                            <!-- <img src="../assets/circle.svg" class="circle"> -->
+                            <input type="radio" name="pay">
+                            <img src="../assets/bri.svg" class="image1">
+                        </div>
+                    </div>
+                    <input class="input" type="text" placeholder="Virtual Account Number" id="inputNumber">
+                </div>
+
+                <div class="bill">
+                    <h2 class="titleBill">Mojox’s Platinum Member</h2>
+
+                    <div class="text1">
+                        <p>Price</p>
+                        <p>Rp. 1.000.000</p>
+                    </div>
+                    <div class="text2">
+                        <p>VAT(11%)</p>
+                        <p>Rp. 2.500</p>
+                    </div>
+
+                    <img src="../assets/line.svg" class="lineImg">
+
+                    <div class="text2">
+                        <p>Total Price</p>
+                        <p>Rp. 1.002.500</p>
+                    </div>
+
+                    <div class="boxBill">
+                        <h2>Payment Details :</h2>
+                        <div class="textBox">
+                            <p>OVO</p>
+                            <p>Rp. 1.002.500</p>
+                        </div>
+                    </div>
+
+                    <div class="checkboxTemp">
+                         <label class="checkbox" for="myCheckBoxId">
+                        <input type="checkbox" name="checkboxTermofService" id="checkBoxId">
+                        By clicking "Place Order" below, I represent that I am over 18 and an authorized user of this payment method, and I agree to the End User Licence Agreement.
+                    </label>
+                    </div>
+
+                     <button id="buttonSubmit"><a href="../paymentSuccess/indexPaymentSuccess.html">Place Order</a></button>
+                </div>
+            </div>   
+        </div>
+    </div>
+</body>
+
+</html>

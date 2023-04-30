@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.register{
+    background-image: url("../assets/bgRegister.svg");
+    width: 100%;
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    color: white;
+    background: linear-gradient(0deg, #16181E, #16181E), #1D1933;
+    opacity: 0.85;
+    border-radius: 99px;
+    width: 800px;
+    height: 500px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.optionRegister{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+
+.logo{
+    width: 120px;
+}
+
+.textSignUp{
+    width: 350px;
+    height: 60px;
+    background: #27292D;
+    border-radius: 0 15px 15px 0;
+    background-color: #27292D;
+    font-size: 14pt;
+}
+
+.textSignUp a {
+    color: white;
+}
+
+.textSignUp:hover{
+    background-color: #00B9AE;
+}
+
+.temp{
+    margin-top: 2%;
+}
+
+.temp a{
+    font-size: 12pt;
+    color: white; 
+}
+
+.temp a:hover{
+    color: #00B9AE;
+} 
