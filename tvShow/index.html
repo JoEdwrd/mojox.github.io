@@ -11,6 +11,7 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="../slideshowStyleCssJS/slideshow.css">
 		<title>MOJOX</title>
 	</head>
 	<body class="navyBgColor">
@@ -59,7 +60,7 @@
 					</li>
 					<li class="nav-item p-1">
 						<img
-							src="/TugasAkhirHCILec/assets/PPNavbar.png"
+							src="../assets/PPNavbar.png"
 							class="w-75 PP"
 							alt="profile picture"
 						/>
@@ -73,7 +74,7 @@
 			<ul class="w-100">
 				<li class="p-5 d-flex flex-row column-gap-5 border-bottom me-4">
 					<img
-						src="/TugasAkhirHCILec/assets/PPNavbar.png"
+						src="../assets/PPNavbar.png"
 						class="me-4"
 						alt="profile picture"
 					/>
@@ -108,7 +109,44 @@
 			</ul>
 		</nav>
 		<section class="p-4">
-			<div class="moneyHeist rounded-4 position-relative">
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <div class="numbertext textShadow">Money Heist</div>
+				  <img src="../assets/moneyHeist.jpg" class="rounded-4" style="width: 100%; background-size: cover; max-height: 39rem;">
+				  
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext textShadow">Purple Heart</div>
+				  <img src="../assets/1232482.jpg" class="rounded-4" style="width: 100%; background-size: cover; max-height: 39rem;">
+				  
+				</div>
+				
+				<div class="mySlides fade">
+				  <div class="numbertext textShadow">Your Lie In April</div>
+				  <img src="../assets/677543.jpg" class="rounded-4" style="width: 100%; background-size: cover; max-height: 39rem;">
+				  
+				</div>
+				
+				<div style="text-align:center; margin-top: -4%;">
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+				</div>
+
+				<div class="position-absolute end-0 " style="margin-top: -4%; margin-right: 2%;">
+					<img src="../assets/watchListBtn.png" alt="" />
+				</div>
+
+				<div class="position-absolute " style="margin-top: -4%; margin-left: 2%;">
+					<a href="../episodeDisplay/index.html">
+						<img src="../assets/watchNowBtn.png" alt="" />
+					</a>
+				</div>
+				  
+			</div>
+			<!-- <div class="moneyHeist rounded-4 position-relative">
 				<h2 class="text-light d-inline-block m-4">Money Heist</h2>
 				<ul
 					class="list-unstyled bottom-0 position-absolute flex-row d-flex justify-content-between w-100"
@@ -156,7 +194,7 @@
 						</a>
 					</li>
 				</ul>
-			</div>
+			</div> -->
 		</section>
 		<section class="mt-5 ms-4 me-4">
 			<div class="flex-row d-flex justify-content-between">
@@ -166,6 +204,11 @@
 				>
 			</div>
 			<div class="mt-3">
+				<swiper-container>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+				</swiper-container>
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
@@ -220,6 +263,11 @@
 				>
 			</div>
 			<div class="mt-3">
+				<swiper-container>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+				</swiper-container>
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
@@ -274,6 +322,11 @@
 				>
 			</div>
 			<div class="mt-3">
+				<swiper-container>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+				</swiper-container>
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
@@ -328,6 +381,11 @@
 				>
 			</div>
 			<div class="mt-3">
+				<swiper-container>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+				</swiper-container>
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
@@ -382,6 +440,11 @@
 				>
 			</div>
 			<div class="mt-3">
+				<swiper-container>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+				</swiper-container>
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
@@ -436,6 +499,11 @@
 				>
 			</div>
 			<div class="mt-3">
+				<swiper-container>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+				</swiper-container>
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
@@ -490,6 +558,11 @@
 				>
 			</div>
 			<div class="mt-3">
+				<swiper-container>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+					<swiper-slide></swiper-slide>
+				</swiper-container>
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
@@ -607,5 +680,7 @@
 			</ul>
 		</footer>
 		<script src="../script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+		<script src="../slideshowStyleCssJS/slideshow.js"></script>
 	</body>
 </html>
