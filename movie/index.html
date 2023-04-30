@@ -10,7 +10,7 @@
 			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="../style.css" />
 		<title>MOJOX</title>
 	</head>
 	<body class="navyBgColor">
@@ -26,23 +26,39 @@
 						<div>
 							<ul class="navbar justify-content-around list-unstyled">
 								<li>
-									<a class="text-decoration-none text-light" href="../home/index.html">Home</a>
+									<a
+										class="text-decoration-none text-light"
+										href="../home/index.html"
+										>Home</a
+									>
 								</li>
 								<li class="nav-item">
-									<a class="text-light text-decoration-none" href="../watchlist/index.html"
+									<a
+										class="text-light text-decoration-none"
+										href="../watchlist/index.html"
 										>Watchlist</a
 									>
 								</li>
 								<li>
-									<a class="colorCyan borderColor pb-1 text-decoration-none" href="#">Movies</a>
+									<a
+										class="colorCyan borderColor pb-1 text-decoration-none"
+										href="#"
+										>Movies</a
+									>
 								</li>
 								<li>
-									<a class="text-light text-decoration-none" href="../tvShow/index.html"
+									<a
+										class="text-light text-decoration-none"
+										href="../tvShow/index.html"
 										>TV Shows</a
 									>
 								</li>
 								<li>
-									<a class="text-light text-decoration-none" href="../anime/index.html">Anime</a>
+									<a
+										class="text-light text-decoration-none"
+										href="../anime/index.html"
+										>Anime</a
+									>
 								</li>
 							</ul>
 						</div>
@@ -78,14 +94,20 @@
 						alt="profile picture"
 					/>
 					<h3 class="text-light mt-4">JulEdward</h3>
-					<img src="../assets/exitBtn.png" class="position-absolute end-0 top-0 me-3 mt-3 exitNavbarBTN" alt="">
+					<img
+						src="../assets/exitBtn.png"
+						class="position-absolute end-0 top-0 me-3 mt-3 exitNavbarBTN"
+						alt=""
+					/>
 				</li>
 				<ul class="d-flex flex-column row-gap-5 mt-5">
 					<li>
 						<a href="#"><img src="../assets/notifBtn.png" alt="" /></a>
 					</li>
 					<li>
-						<a href="../download/index.html"><img src="../assets/downloadBtn.png" alt="" /></a>
+						<a href="../download/index.html"
+							><img src="../assets/downloadBtn.png" alt=""
+						/></a>
 					</li>
 					<li>
 						<a href="#"><img src="../assets/myAccountBtn.png" alt="" /></a>
@@ -102,14 +124,20 @@
 				</ul>
 				<li class="mt-5 p-4">
 					<h5 class="me-3 mt-5 text-center">
-						<a href="" class="text-center text-light text-decoration-none signOutBtn d-inline-block">Sign Out</a>
+						<a
+							href=""
+							class="text-center text-light text-decoration-none signOutBtn d-inline-block"
+							>Sign Out</a
+						>
 					</h5>
 				</li>
 			</ul>
 		</nav>
 		<section class="p-4">
 			<div class="purpleHeart rounded-4 position-relative">
-				<h2 class="text-light-emphasis fw-bolder d-inline-block m-4">Purple Hearts</h2>
+				<h2 class="text-light-emphasis fw-bolder d-inline-block m-4">
+					Purple Hearts
+				</h2>
 				<ul
 					class="list-unstyled bottom-0 position-absolute flex-row d-flex justify-content-between w-100"
 				>
@@ -122,7 +150,7 @@
 								xmlns="http://www.w3.org/2000/svg"
 								width="16"
 								height="16"
-								fill="black"
+								fill="colorCyan"
 								class="bi bi-circle-fill"
 								viewBox="0 0 16 16"
 							>
@@ -164,15 +192,152 @@
 				>
 			</div>
 			<div class="mt-3">
-				<ul
-					class="flex-row d-flex list-unstyled justify-content-around carousel"
-				>
-					<li class="ronin rounded-4"></li>
-					<li class="rounded-4 divergent"></li>
-					<li class="joker rounded-4"></li>
-					<li class="jackReacher rounded-4"></li>
-					<li class="dunkirkPoster rounded-4"></li>
-				</ul>
+				<swiper-container>
+					<swiper-slide>
+						<ul
+							class="flex-row d-flex list-unstyled justify-content-around carousel"
+						>
+							<li class="ronin rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Ronin</h2>
+								</a>
+							</li>
+							<li class="rounded-4 divergent">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Divergent</h2>
+								</a>
+							</li>
+							<li class="joker rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Joker</h2>
+								</a>
+							</li>
+							<li class="jackReacher rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">
+										Jack Reacher
+									</h2>
+								</a>
+							</li>
+							<li class="dunkirkPoster rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Dunkirk</h2>
+								</a>
+							</li>
+						</ul>
+					</swiper-slide>
+					<swiper-slide>
+						<ul
+							class="flex-row d-flex list-unstyled justify-content-around carousel"
+						>
+							<li class="ronin rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Ronin</h2>
+								</a>
+							</li>
+							<li class="rounded-4 divergent">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Divergent</h2>
+								</a>
+							</li>
+							<li class="joker rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Joker</h2>
+								</a>
+							</li>
+							<li class="jackReacher rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">
+										Jack Reacher
+									</h2>
+								</a>
+							</li>
+							<li class="dunkirkPoster rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Dunkirk</h2>
+								</a>
+							</li>
+						</ul>
+					</swiper-slide>
+					<swiper-slide>
+						<ul
+							class="flex-row d-flex list-unstyled justify-content-around carousel"
+						>
+							<li class="ronin rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Ronin</h2>
+								</a>
+							</li>
+							<li class="rounded-4 divergent">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Divergent</h2>
+								</a>
+							</li>
+							<li class="joker rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Joker</h2>
+								</a>
+							</li>
+							<li class="jackReacher rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">
+										Jack Reacher
+									</h2>
+								</a>
+							</li>
+							<li class="dunkirkPoster rounded-4">
+								<a
+									href="../videoPlay/index.html"
+									class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+								>
+									<h2 class="text-light fw-bold ms-3 textShadow">Dunkirk</h2>
+								</a>
+							</li>
+						</ul>
+					</swiper-slide>
+				</swiper-container>
 			</div>
 		</section>
 		<section class="mt-5 ms-4 me-4">
@@ -186,11 +351,50 @@
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
-					<li class="savingPrivateRyan rounded-4"></li>
-					<li class="mencuriRadenSaleh rounded-4"></li>
-					<li class="skyHigh rounded-4"></li>
-					<li class="frozen2 rounded-4"></li>
-					<li class="interstellar rounded-4"></li>
+					<li class="savingPrivateRyan rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">
+								Saving Private Ryan
+							</h2>
+						</a>
+					</li>
+					<li class="mencuriRadenSaleh rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">
+								Mencuri Raden Saleh
+							</h2>
+						</a>
+					</li>
+					<li class="skyHigh rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Sky High</h2>
+						</a>
+					</li>
+					<li class="frozen2 rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Frozen 2</h2>
+						</a>
+					</li>
+					<li class="interstellar rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Interstellar</h2>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</section>
@@ -205,11 +409,46 @@
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
-					<li class="bleedingSteel rounded-4"></li>
-					<li class="trainToBusan rounded-4"></li>
-					<li class="bumblebee rounded-4"></li>
-					<li class="lalaland rounded-4"></li>
-					<li class="avatar rounded-4"></li>
+					<li class="bleedingSteel rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Bleeding Steel</h2>
+						</a>
+					</li>
+					<li class="trainToBusan rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Train to Busan</h2>
+						</a>
+					</li>
+					<li class="bumblebee rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Bumblebee</h2>
+						</a>
+					</li>
+					<li class="lalaland rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">La La Land</h2>
+						</a>
+					</li>
+					<li class="avatar rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Avatar</h2>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</section>
@@ -224,11 +463,46 @@
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
-					<li class="beWithYou rounded-4"></li>
-					<li class="redNotice rounded-4"></li>
-					<li class="billions rounded-4"></li>
-					<li class="wanted rounded-4"></li>
-					<li class="mrSunshine rounded-4"></li>
+					<li class="beWithYou rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Be With You</h2>
+						</a>
+					</li>
+					<li class="redNotice rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Red Notice</h2>
+						</a>
+					</li>
+					<li class="billions rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Billions</h2>
+						</a>
+					</li>
+					<li class="wanted rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Wanted</h2>
+						</a>
+					</li>
+					<li class="mrSunshine rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Mr. Sunshine</h2>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</section>
@@ -243,11 +517,48 @@
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
-					<li class="battleship rounded-4"></li>
-					<li class="blackAdam rounded-4"></li>
-					<li class="dune rounded-4"></li>
-					<li class="expendables rounded-4"></li>
-					<li class="lordOfTheRIngs rounded-4"></li>
+					<li class="battleship rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Battleship</h2>
+						</a>
+					</li>
+					<li class="blackAdam rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Black Adam</h2>
+						</a>
+					</li>
+					<li class="dune rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Dune</h2>
+						</a>
+					</li>
+					<li class="expendables rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Expendables</h2>
+						</a>
+					</li>
+					<li class="lordOfTheRIngs rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">
+								Lord of the Rings
+							</h2>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</section>
@@ -262,11 +573,52 @@
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
-					<li class="unthinkable rounded-4"></li>
-					<li class="dontBreath rounded-4"></li>
-					<li class="WWZ rounded-4"></li>
-					<li class="darkKnight rounded-4"></li>
-					<li class="theSocialDilemma rounded-4"></li>
+					<li class="unthinkable rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">
+								The Unthinkable
+							</h2>
+						</a>
+					</li>
+					<li class="dontBreath rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Don't Breath</h2>
+						</a>
+					</li>
+					<li class="WWZ rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">World War Z</h2>
+						</a>
+					</li>
+					<li class="darkKnight rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">
+								Batman The Dark Knight
+							</h2>
+						</a>
+					</li>
+					<li class="theSocialDilemma rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">
+								The Social Dilemma
+							</h2>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</section>
@@ -281,11 +633,48 @@
 				<ul
 					class="flex-row d-flex list-unstyled justify-content-around carousel"
 				>
-					<li class="goneGirl rounded-4"></li>
-					<li class="greenLatern rounded-4"></li>
-					<li class="jasonBourne rounded-4"></li>
-					<li class="snakeEyes rounded-4"></li>
-					<li class="fantasticBeast rounded-4"></li>
+					<li class="goneGirl rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Gone Girl</h2>
+						</a>
+					</li>
+					<li class="greenLatern rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Green Latern</h2>
+						</a>
+					</li>
+					<li class="jasonBourne rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Jason Bourne</h2>
+						</a>
+					</li>
+					<li class="snakeEyes rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">Snake Eyes</h2>
+						</a>
+					</li>
+					<li class="fantasticBeast rounded-4">
+						<a
+							href="../videoPlay/index.html"
+							class="text-decoration-none w-100 h-100 d-flex align-items-end rounded-4"
+						>
+							<h2 class="text-light fw-bold ms-3 textShadow">
+								Fantastic Beast
+							</h2>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</section>
@@ -360,5 +749,6 @@
 			</ul>
 		</footer>
 		<script src="../script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 	</body>
 </html>

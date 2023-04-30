@@ -10,56 +10,7 @@
 			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
 			crossorigin="anonymous"
 		/>
-		<style>
-            .w-6 {
-				width: 6%;
-			}
-			.w-20 {
-				width: 22%;
-			}
-			.mConnect {
-				margin-left: -70%;
-			}
-			.mMojoxApp {
-				margin-left: -60%;
-			}
-            .w-30{
-                width: 30%;
-            }
-			.colorCyan{
-				color: rgba(0, 220, 220, 1);
-			}
-			.borderColor{
-				border-bottom: 2px solid rgba(0, 220, 220, 1);
-			}
-			.defColor {
-				background: rgba(33, 32, 37, 1);
-			}
-			.navyBgColor {
-				background: rgba(22, 24, 30, 1);
-			}
-			.text-white {
-				color: white;
-			}
-			.searchColor {
-				background: rgba(33, 36, 45, 1);
-			}
-			.searchForm::placeholder {
-				color: white;
-			}
-			.navyBgColor {
-				background: rgba(22, 24, 30, 1);
-			}
-			.w-80 {
-				width: 80%;
-			}
-			.contain {
-				max-height: 570px;
-			}
-			.w-25 {
-				width: 25%;
-			}
-		</style>
+		<link rel="stylesheet" href="../style.css" />
 		<title>Document</title>
 	</head>
 	<body class="navyBgColor">
@@ -128,6 +79,56 @@
 				</ul>
 			</nav>
 		</header>
+		<nav
+			class="clickedNavbar position-absolute end-0 top-0 z-3 defColor position-relative none"
+		>
+			<ul class="w-100">
+				<li class="p-5 d-flex flex-row column-gap-5 border-bottom me-4">
+					<img
+						src="/TugasAkhirHCILec/assets/PPNavbar.png"
+						class="me-4"
+						alt="profile picture"
+					/>
+					<h3 class="text-light mt-4">JulEdward</h3>
+					<img
+						src="../assets/exitBtn.png"
+						class="position-absolute end-0 top-0 me-3 mt-3 exitNavbarBTN"
+						alt=""
+					/>
+				</li>
+				<ul class="d-flex flex-column row-gap-5 mt-5">
+					<li>
+						<a href="#"><img src="../assets/notifBtn.png" alt="" /></a>
+					</li>
+					<li>
+						<a href="../download/index.html"
+							><img src="../assets/downloadBtn.png" alt=""
+						/></a>
+					</li>
+					<li>
+						<a href="#"><img src="../assets/myAccountBtn.png" alt="" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="../assets/subscriptionsBtn.png" alt="" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="../assets/settingsBtn.png" alt="" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="../assets/helpBtn.png" alt="" /></a>
+					</li>
+				</ul>
+				<li class="mt-5 p-4">
+					<h5 class="me-3 mt-5 text-center">
+						<a
+							href=""
+							class="text-center text-light text-decoration-none signOutBtn d-inline-block"
+							>Sign Out</a
+						>
+					</h5>
+				</li>
+			</ul>
+		</nav>
 		<section class="d-flex flex-row p-5 pe-0 pt-2 contain">
 			<section class="w-80">
 				<iframe
@@ -165,7 +166,7 @@
 			</section>
 		</section>
 		<section>
-            <h2 class="text-light ms-5">
+			<h2 class="text-light ms-5">
 				Kimetsu No Yaiba Episode 1 : The train to Busan
 			</h2>
 			<img
@@ -174,7 +175,7 @@
 				alt=""
 			/>
 		</section>
-        <footer class="defColor p-3 mt-5">
+		<footer class="defColor p-3 mt-5">
 			<ul class="list-unstyled d-flex flex-row justify-content-between">
 				<li class="w-30">
 					<ul class="list-unstyled d-flex flex-row justify-content-evenly">
@@ -244,5 +245,6 @@
 				</li>
 			</ul>
 		</footer>
+		<script src="../script.js"></script>
 	</body>
 </html>
