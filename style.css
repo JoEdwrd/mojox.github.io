@@ -743,6 +743,66 @@
     width: 19%;
     min-height: 10rem;
 }
+.titanic{
+    background: url(assets/titanic.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;   
+}
+.theunthinkable{
+    background: url(assets/theunthinkable.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;   
+}
+.catchmeifyoucan{
+    background: url(assets/catchmeifyoucan.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;   
+}
+.the1917{
+    background: url(assets/1917.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;   
+}
+.amsterdam{
+    background: url(assets/amsterdam.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;   
+}
+.starisborn{
+    background: url(assets/starsisborn.webp) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;   
+}
+.ticketparadise{
+    background: url(assets/ticketparadise.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;   
+}
+.thematrix{
+    background: url(assets/thematrix.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;   
+}
+.artemisfowl{
+    background: url(assets/artemisfowl.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;   
+}
+.lordoftherings{
+    background: url(assets/lordoftherings.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;   
+}
 .textShadow{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -3px 4px #000000, 0px 4px 4px #000000;
 }
@@ -1587,8 +1647,390 @@
     width: 19%;
     min-height: 10rem;
 }
-
-
+.ronin47{
+        background: url(assets/47Ronin.png) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.helloghost{
+    background: url(assets/helloghost.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.littlemermaid{
+    background: url(assets/littlemermaid.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.elemental{
+    background: url(assets/elemental.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.asteroidcity{
+    background: url(assets/asteroidcity.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.theflash{
+    background: url(assets/theflash.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.openheimer{
+    background: url(assets/openheimer.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.wonka{
+    background: url(assets/wonka.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.blade{
+    background: url(assets/blade.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.nextgoalwins{
+    background: url(assets/nextgoalwins.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.another{
+    background: url(assets/another.jpeg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.ayaka{
+    background: url(assets/ayaka.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.bosanimal{
+    background: url(assets/bosanimal.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.danshikoukosei{
+    background: url(assets/danshikoukosei.jpeg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.darkgathering{
+    background: url(assets/darkGathering.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.deadMount{
+    background: url(assets/deadMount.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.doraemon{
+    background: url(assets/doraemon.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.drstone{
+    background: url(assets/drStone.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.eiyuuKyouShitsu{
+    background: url(assets/eiyuuKyoushitsu.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.evangelion{
+    background: url(assets/evangelion.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.fateStaynight{
+    background: url(assets/fateStayNight.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.free{
+    background: url(assets/free.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.gintama{
+    background: url(assets/gintama.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.girlPanzer{
+    background: url(assets/girlPanzer.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.haitogensou{
+    background: url(assets/haiToGensou.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.handakun{
+    background: url(assets/handaKun.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.isekaiSmartphone{
+    background: url(assets/isekaiSmartphone.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.jigokuraku{
+    background: url(assets/jigokuraku.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.jujutsukaisen{
+    background: url(assets/jujutsuKaisen.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.kaguyasama{
+    background: url(assets/kaguyaSama.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.kantaicollection{
+    background: url(assets/kantaiCollection.png) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.kawaisugi{
+    background: url(assets/kawaisugi.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.kizunanoAllele{
+    background: url(assets/kizunaNoAllele.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.k-on{
+    background: url(assets/k-on.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.kumakumabear{
+    background: url(assets/kumakumabear.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.kuroko{
+    background: url(assets/kurokoNoBasket.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.liarliar{
+    background: url(assets/liarLiar.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.magicalGirlSite{
+    background: url(assets/magicalGirlSite.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.marginalService{
+    background: url(assets/marginalService.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.mashle{
+    background: url(assets/magicalGirlSite.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.megaminnocafe{
+    background: url(assets/megaminoCafe.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.myhomehero{
+    background: url(assets/myhomehero.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.nanatsunomaken{
+    background: url(assets/nanatsuNoMaken.jpeg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.nononbiyori{
+    background: url(assets/NonNonBiyor.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.okashinatensei{
+    background: url(assets/okashiNaTensei.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.orange{
+    background: url(assets/orange.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.otonari{
+    background: url(assets/otonarinoginga.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.ousama{
+    background: url(assets/ousama.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.owarinoseraph{
+    background: url(assets/owariNoSeraph.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.risingshield{
+    background: url(assets/risingShieldHero.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.scarletnexus{
+    background: url(assets/scarletNexus.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.seijaMusou{
+    background: url(assets/seijaMusou.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.skiploafer{
+    background: url(assets/skipAndLoafer.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.spyfamily{
+    background: url(assets/spyFamily.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.steinsgate{
+    background: url(assets/steins\ gate.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.sugarApple{
+    background: url(assets/sugarApple.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.temple{
+    background: url(assets/temple.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.toiletnahanako{
+    background: url(assets/toilet\ to\ hanako.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.tonikaku{
+    background: url(assets/tonikakuKawaii.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.tsuyokute{
+    background: url(assets/tsuyokuteNewSaga.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.worldstar{
+    background: url(assets/worldDaiStar.webp) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.wotaku{
+    background: url(assets/wotaku.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.yamadakun{
+    background: url(assets/yamadaKun.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
+.yosuganosora{
+    background: url(assets/yosuganosora.jpg) no-repeat;
+        background-size: cover;
+        width: 19%;
+        min-height: 10rem;
+}
 .w-30{
     width: 30%;
 }
