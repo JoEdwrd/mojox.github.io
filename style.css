@@ -2286,6 +2286,24 @@
     width: 19%;
     min-height: 10rem;
 }
+.cekToko{
+    background: url(assets/posterFilm10.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.tinder{
+    background: url(assets/posterFilm16.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.johnWick{
+    background: url(assets/posterFilm26.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
 .theSocialDilemma{
     background: url(assets/theSocialDilemma.png) no-repeat;
     background-size: cover;
@@ -2346,8 +2364,178 @@
     width: 19%;
     min-height: 10rem;
 }
+.ts1{
+    background: url(assets/toyStory.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.ts2{
+    background: url(assets/toySTory2.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
 .encanto{
     background: url(assets/encanto.png) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.peaky{
+    background: url(assets/peaky.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.aLove{
+    background: url(assets/aLove.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.emily{
+    background: url(assets/emily.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.firstLove{
+    background: url(assets/firstLove.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.loveO2O{
+    background: url(assets/loveO2O.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.dikta{
+    background: url(assets/dikta.jpeg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.trueBeauty{
+    background: url(assets/trueBeauty.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.zNation{
+    background: url(assets/zNation.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.yourAreMyHero{
+    background: url(assets/youAreMyHero.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.theK2{
+    background: url(assets/theK2.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.fate{
+    background: url(assets/posterFilm27.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.neverHave{
+    background: url(assets/posterFilm28.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.riverdale{
+    background: url(assets/riverDale.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.doom{
+    background: url(assets/posterFilm1.jpeg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.sabrina{
+    background: url(assets/posterFilm43.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.anne{
+    background: url(assets/posterFilm45.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.doRevenge{
+    background: url(assets/posterFilm47.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.sing{
+    background: url(assets/posterfilm54.webp) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.trolls{
+    background: url(assets/posterFilm55.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.ts3{
+    background: url(assets/posterFilm56.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+
+.caroline{
+    background: url(assets/posterFilm57.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.weddingDay{
+    background: url(assets/posterFilm61.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.susahSinyal{
+    background: url(assets/posterFilm62.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.smurf{
+    background: url(assets/posterFilm58.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+
+.frozen{
+    background: url(assets/posterFilm59.jpg) no-repeat;
+    background-size: cover;
+    width: 19%;
+    min-height: 10rem;
+}
+.extremeJob{
+    background: url(assets/posterFilm60.jpg) no-repeat;
     background-size: cover;
     width: 19%;
     min-height: 10rem;
