@@ -10,14 +10,24 @@ const seeAllFO = document.querySelector(".seeAllBtnFO")
 const seeAllCS = document.querySelector(".seeAllBtnCS")
 const seeAllScary = document.querySelector(".seeAllBtnScary")
 
+
 watchList.addEventListener("mouseover", () => {
     
     watchList.src = "../assets/watchListBtnHover.png"
 })
 
+watchList.addEventListener("click", () => {
+    watchList.src = "../assets/watchListBtnOnClick.png"
+    
+})
+
+
+
 watchList.addEventListener("mouseleave", () => {
+    
     watchList.src = "../assets/watchListBtn.png"
 })
+
 
 watchNow.addEventListener("mouseover", () => {
     
